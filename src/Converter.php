@@ -4,18 +4,18 @@ declare(strict_types=1);
 
 namespace Singurix\Webpconverter;
 
-class Convertor
+class Converter
 {
-    private var $srcPath;
-    private var $destPath;
+    private $srcPath;
+    private $destPath;
 
-    public function setSrcPath(string $srcPath): Convertor
+    public function setSrcPath(string $srcPath): Converter
     {
         $this->srcPath = $srcPath;
         return $this;
     }
 
-    public function setDestPath(string $destPath): Convertor
+    public function setDestPath(string $destPath): Converter
     {
         $this->destPath = $destPath;
         return $this;
