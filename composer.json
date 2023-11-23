@@ -1,0 +1,21 @@
+{
+    "name": "singurix/webpconverter",
+    "description": "convert jpg and png to webp format",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Singurix\\Webpconverter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Singurix"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-gd": ">=2.1.0",
+        "ext-zlib": ">=1.2.0.4"
+    }
+}
