@@ -15,8 +15,8 @@ $ composer require singurix/webpconverter
 
 ## Использование
 ```php
-$convertor = new Singurix\WebpConvertor\Convertor();
-$convertor->setSrcPath('test.jpg');
-$convertor->setDistPath('.');
-$convertor->convert();
+new Singurix\WebpConvertor\Convertor()
+->setSrcPath('test.jpg')
+->setDestPath('test.webp')
+->convert();
 ```
